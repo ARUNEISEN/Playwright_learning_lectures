@@ -19,7 +19,7 @@ test("File Handling Methods", async ({page}) => {
     
 })
 
-test.only("Download a file", async ({page}) => {
+test("Download a file", async ({page}) => {
 
     await page.goto("https://demoqa.com/upload-download");
     const [result] = await Promise.all([
