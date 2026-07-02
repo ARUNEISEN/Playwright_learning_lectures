@@ -1,0 +1,14 @@
+{
+  "project": "Playwright practice",
+  "type": "sample test data",
+  "users": [
+    {
+      "name": "Arun",
+      "role": "QA"
+    },
+    {
+      "name": "John",
+      "role": "Developer"
+    }
+  ]
+}

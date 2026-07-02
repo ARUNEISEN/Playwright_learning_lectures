@@ -1,0 +1,2 @@
+This is a sample text file for Playwright upload practice.
+You can use it for single file upload, download, and validation tests.
