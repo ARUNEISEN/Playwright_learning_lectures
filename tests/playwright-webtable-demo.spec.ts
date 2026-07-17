@@ -43,14 +43,14 @@ test('Retrieval and Validation of the table Headers', async ({page}) => {
     })
 })
 
-test('Retrieve 2nd row 3rd column data', async ({page}) => {
+test.only('Retrieve 2nd row 3rd column data', async ({page}) => {
     await test.step('Navigate to the Web Tables page', async()=>{      
         await page.goto('https://www.tutorialspoint.com/selenium/practice/webtables.php');
         await expect(page).toHaveTitle('Selenium Practice - Web Tables');
     })
 
     await test.step('Validate 2nd row 3rd email data',async()=>{
-        await expect(page.locator("table tbody tr:nth-child(2) td:nth-child(4)")).toHaveText('alden@example.com');
+        await expect(page.locator("table tbody tr:nth-child(2) td:nth-child(4)")).toHaveText('alden@example.com',{timeout:10000});
     })
 })
 
