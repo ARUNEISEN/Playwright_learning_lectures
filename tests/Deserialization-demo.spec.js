@@ -47,7 +47,7 @@ test('Serialize Employee object into JSON', async () => {
     );
 
     // 4. Verify that JSON file was created
-    expect(fs.existsSync('./test-data/employee.json')).toBeTruthy();
+    expect(fs.existsSync('./test-data/Employee2.json')).toBeTruthy();
 
-    console.log('Employee JSON created successfully');
+    console.log('Employee JSON created successfully and it is available in the path');
 });
