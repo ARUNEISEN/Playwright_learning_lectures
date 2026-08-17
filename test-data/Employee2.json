@@ -1,0 +1,14 @@
+{
+  "empname": "Arunkumar",
+  "empid": 811617,
+  "contact": {
+    "mobile1": 916576456434,
+    "mobile2": 916599456434
+  },
+  "skills": [
+    "Manual",
+    "Playwright Automation",
+    "GenAI",
+    "API"
+  ]
+}
