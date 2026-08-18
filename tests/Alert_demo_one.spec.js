@@ -38,4 +38,7 @@ test('Handling Confirm alerts', async ({page}) => {
     await page.locator('#alertButton').click();
     await page.locator('#confirmButton').click();
     await page.locator('#promtButton').click();
+
+    // Added by Arunkumar Sekar
+    console.log("This changes are added by Arunkumar Sekar");
 })
