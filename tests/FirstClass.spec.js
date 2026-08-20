@@ -35,6 +35,7 @@ test("Playwright page methods", async ({page}) => {
     await page.goForward();
     await page.reload();
     await page.screenshot({path:'file.png'})
+    console.log("Screenshot captured carefully");
     
 
     
