@@ -3,7 +3,7 @@ import { parse } from "csv-parse/sync";
 import fs from "fs";
 
 const fileContent = fs.readFileSync('test-data/login.csv',"utf-8");
-const records = parse(fileContent,{columns:true, skip_empty_lines:true}) as {email:string, password:string}[];
+const records = parse(fileContent,{columns:true, skip_empty_lines:true});
 
 
 records.forEach(record => {
