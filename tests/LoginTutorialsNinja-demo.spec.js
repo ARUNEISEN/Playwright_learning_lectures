@@ -1,7 +1,7 @@
 import {test, expect} from "@playwright/test"
 
 
-test.only('Login with valid credentials', async ({page}) => {
+test('Login with valid credentials', async ({page}) => {
     await page.goto('https://tutorialsninja.com/demo/index.php?route=account/login');
     await page.locator('#input-email').fill('aruenisen1052@gmail.com');
     await page.locator('#input-password').fill('12345');
