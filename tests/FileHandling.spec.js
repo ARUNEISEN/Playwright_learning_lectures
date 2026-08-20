@@ -6,6 +6,7 @@ test("File Handling Methods", async ({page}) => {
     await page.goto("https://demoqa.com/upload-download");
     await page.setInputFiles("#uploadFile","./FileForUpload/sample.xlsx");
     await page.waitForTimeout(3000);
+    console.log("This is added to practive git revert!");
 
     // Delete the uploaded file
     await page.setInputFiles("#uploadFile",[]);
