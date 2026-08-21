@@ -1,1 +1,1 @@
-Browser: FireFox
+Browser: FireFox 45.6
