@@ -1,1 +1,1 @@
-Browser : Chrome
+Browser : Chrome 105.67
