@@ -5,7 +5,7 @@ test("Hanldling Simple alerts", async ({page}) => {
     page.on('dialog',async (dialog)=>{
         const alertType = dialog.type();
         console.log(`Alert type ${alertType}`);
-        console.log(`Alert message is ${dialog.message()}`)        
+        console.log(`Alert message  is ${dialog.message()}`)        
         await page.waitForTimeout(3000);
         dialog.accept();
     })
