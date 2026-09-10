@@ -13,6 +13,7 @@ test('Modify exist web table values', async ({page}) => {
             await page.getByPlaceholder('Salary').fill('35000');
             await page.getByRole('button',{'name':'Submit'}).click();
             await page.waitForTimeout(4000);
+            await page.wait
             break;
         }
     }    
