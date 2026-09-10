@@ -1,0 +1,6 @@
+Alert type alert
+Alert message is You clicked a button
+Alert type confirm
+Alert message is Do you confirm action?
+Alert type prompt
+Alert message is Please enter your name

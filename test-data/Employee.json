@@ -1,0 +1,16 @@
+{
+  "Employee": {
+    "empname": "Arun",
+    "empid": 223232,
+    "contact": {
+      "mobile1": 5365765367536,
+      "mobile2": 6536537637356
+    },
+    "skills": [
+      "manual",
+      "automation",
+      "mobile",
+      "api"
+    ]
+  }
+}

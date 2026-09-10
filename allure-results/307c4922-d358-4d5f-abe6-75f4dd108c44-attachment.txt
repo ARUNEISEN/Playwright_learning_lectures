@@ -1,0 +1,10 @@
+Selenium Practice - Web Tables
+Headers [
+  'First Name',
+  'Last Name',
+  'Age',
+  'Email',
+  'Salary',
+  'Department',
+  'Action'
+]

@@ -1,0 +1,2 @@
+Alert type alert
+Alert message is You clicked a button
